@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Credits>
+  <Credit Id="1" DisplayName="Windows AppStudio" Link="http://appstudio.windows.com/en-us"  />
+  <Credit Id="2" DisplayName="Bandsintown" Link="bandsintown.com/api/overview" />
+  <Credit Id="3" DisplayName="Syncfusion Metro Studio 3" Link="http://www.syncfusion.com/downloads/metrostudio"  />
+  <Credit Id="4" DisplayName="Maroon 5 Blog" Link="http://www.maroon5.com/blog/feed" />
+  <Credit Id="5" DisplayName="Maroon 5 Twitter" Link="https://twitter.com/maroon5" />
+  <Credit Id="6" DisplayName="Maroon 5 YouTube" Link="https://www.youtube.com/user/Maroon5" />
+  <Credit Id="7" DisplayName="Json.NET" Link="http://james.newtonking.com/json" />
+  <Credit Id="8" DisplayName="HtmlAgilityPack" Link="http://htmlagilitypack.codeplex.com/" />
+  <Credit Id="9" DisplayName="PCLStorage" Link="https://pclstorage.codeplex.com/" />
+  <Credit Id="10" DisplayName="Léa Reviron" Link="https://www.flickr.com/photos/43424337@N03" />
+</Credits>
