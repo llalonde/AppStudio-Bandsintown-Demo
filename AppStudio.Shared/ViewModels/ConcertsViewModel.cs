@@ -8,6 +8,7 @@ using Windows.UI.Xaml.Controls;
 using AppStudio.Services;
 using AppStudio.Data;
 using AppStudio.Data.DataSchemas;
+using Windows.System;
 
 namespace AppStudio.ViewModels
 {
@@ -25,13 +26,18 @@ namespace AppStudio.ViewModels
                         {
                             if (item.ticket_status.ToLower().Equals("available"))
                             {
-                                NavigationServices.NavigateToPage("BrowserPage", item.url);
-                            }       
+                                LaunchArtistFanPage(new Uri(item.url));
+                            }
                         });
                 }
 
                 return itemClickCommand;
             }
+        }
+
+        private async void LaunchArtistFanPage(Uri fanPageUri)
+        {
+            await Launcher.LaunchUriAsync(fanPageUri);
         }
 
         override protected DataSourceBase<ConcertSchema> CreateDataSource()
